@@ -119,7 +119,7 @@ regd_users.delete("/auth/review/:id", authenticateToken, (req, res) => {
 // Use the regd_users router
 app.use('/customer', regd_users);
 
-// Start the server
+
 // Start the server
 const port = 5001; // Cambia el puerto si el 5000 ya está en uso
 app.listen(port, () => {
